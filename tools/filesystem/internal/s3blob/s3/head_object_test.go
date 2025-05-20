@@ -6,8 +6,8 @@ import (
 	"net/http"
 	"testing"
 
-	"github.com/pocketbase/pocketbase/tools/filesystem/internal/s3blob/s3"
-	"github.com/pocketbase/pocketbase/tools/filesystem/internal/s3blob/s3/tests"
+	"git.ma-al.com/goc_marek/pocketbase/tools/filesystem/internal/s3blob/s3"
+	"git.ma-al.com/goc_marek/pocketbase/tools/filesystem/internal/s3blob/s3/tests"
 )
 
 func TestS3HeadObject(t *testing.T) {

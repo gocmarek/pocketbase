@@ -1,6 +1,6 @@
 package apis
 
-import "github.com/pocketbase/pocketbase/tools/router"
+import "git.ma-al.com/goc_marek/pocketbase/tools/router"
 
 // ApiError aliases to minimize the breaking changes with earlier versions
 // and for consistency with the JSVM binds.

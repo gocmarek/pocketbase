@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/pocketbase/pocketbase/tools/types"
+	"git.ma-al.com/goc_marek/pocketbase/tools/types"
 )
 
 func TestGeoPointAsMap(t *testing.T) {

@@ -3,7 +3,7 @@ package picker
 import (
 	"fmt"
 
-	"github.com/pocketbase/pocketbase/tools/tokenizer"
+	"git.ma-al.com/goc_marek/pocketbase/tools/tokenizer"
 )
 
 var Modifiers = map[string]ModifierFactoryFunc{}

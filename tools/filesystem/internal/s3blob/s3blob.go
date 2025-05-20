@@ -40,8 +40,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/pocketbase/pocketbase/tools/filesystem/blob"
-	"github.com/pocketbase/pocketbase/tools/filesystem/internal/s3blob/s3"
+	"git.ma-al.com/goc_marek/pocketbase/tools/filesystem/blob"
+	"git.ma-al.com/goc_marek/pocketbase/tools/filesystem/internal/s3blob/s3"
 )
 
 const defaultPageSize = 1000

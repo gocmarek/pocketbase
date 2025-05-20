@@ -9,11 +9,11 @@ import (
 	"regexp"
 	"strings"
 
+	"git.ma-al.com/goc_marek/pocketbase/core/validators"
+	"git.ma-al.com/goc_marek/pocketbase/tools/filesystem"
+	"git.ma-al.com/goc_marek/pocketbase/tools/list"
+	"git.ma-al.com/goc_marek/pocketbase/tools/types"
 	validation "github.com/go-ozzo/ozzo-validation/v4"
-	"github.com/pocketbase/pocketbase/core/validators"
-	"github.com/pocketbase/pocketbase/tools/filesystem"
-	"github.com/pocketbase/pocketbase/tools/list"
-	"github.com/pocketbase/pocketbase/tools/types"
 	"github.com/spf13/cast"
 )
 

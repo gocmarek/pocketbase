@@ -1,6 +1,6 @@
 package router
 
-import "github.com/pocketbase/pocketbase/tools/hook"
+import "git.ma-al.com/goc_marek/pocketbase/tools/hook"
 
 type Route[T hook.Resolver] struct {
 	excludedMiddlewares map[string]struct{}

@@ -5,7 +5,7 @@ import (
 	"io"
 	"mime/multipart"
 
-	"github.com/pocketbase/pocketbase/tools/filesystem"
+	"git.ma-al.com/goc_marek/pocketbase/tools/filesystem"
 	"github.com/spf13/cast"
 )
 

@@ -5,7 +5,7 @@ import (
 	"encoding/json"
 	"errors"
 
-	"github.com/pocketbase/pocketbase/tools/types"
+	"git.ma-al.com/goc_marek/pocketbase/tools/types"
 	"golang.org/x/oauth2"
 )
 

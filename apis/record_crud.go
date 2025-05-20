@@ -9,15 +9,15 @@ import (
 	"strings"
 	"time"
 
+	"git.ma-al.com/goc_marek/pocketbase/core"
+	"git.ma-al.com/goc_marek/pocketbase/forms"
+	"git.ma-al.com/goc_marek/pocketbase/tools/filesystem"
+	"git.ma-al.com/goc_marek/pocketbase/tools/inflector"
+	"git.ma-al.com/goc_marek/pocketbase/tools/list"
+	"git.ma-al.com/goc_marek/pocketbase/tools/router"
+	"git.ma-al.com/goc_marek/pocketbase/tools/search"
+	"git.ma-al.com/goc_marek/pocketbase/tools/security"
 	"github.com/pocketbase/dbx"
-	"github.com/pocketbase/pocketbase/core"
-	"github.com/pocketbase/pocketbase/forms"
-	"github.com/pocketbase/pocketbase/tools/filesystem"
-	"github.com/pocketbase/pocketbase/tools/inflector"
-	"github.com/pocketbase/pocketbase/tools/list"
-	"github.com/pocketbase/pocketbase/tools/router"
-	"github.com/pocketbase/pocketbase/tools/search"
-	"github.com/pocketbase/pocketbase/tools/security"
 )
 
 // bindRecordCrudApi registers the record crud api endpoints and

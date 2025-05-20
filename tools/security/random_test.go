@@ -4,7 +4,7 @@ import (
 	"regexp"
 	"testing"
 
-	"github.com/pocketbase/pocketbase/tools/security"
+	"git.ma-al.com/goc_marek/pocketbase/tools/security"
 )
 
 func TestRandomString(t *testing.T) {

@@ -14,12 +14,12 @@ import (
 	"testing"
 	"time"
 
+	"git.ma-al.com/goc_marek/pocketbase/core"
+	"git.ma-al.com/goc_marek/pocketbase/tests"
+	"git.ma-al.com/goc_marek/pocketbase/tools/filesystem"
+	"git.ma-al.com/goc_marek/pocketbase/tools/hook"
+	"git.ma-al.com/goc_marek/pocketbase/tools/types"
 	"github.com/pocketbase/dbx"
-	"github.com/pocketbase/pocketbase/core"
-	"github.com/pocketbase/pocketbase/tests"
-	"github.com/pocketbase/pocketbase/tools/filesystem"
-	"github.com/pocketbase/pocketbase/tools/hook"
-	"github.com/pocketbase/pocketbase/tools/types"
 	"github.com/spf13/cast"
 )
 

@@ -7,11 +7,11 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/pocketbase/pocketbase/core"
-	"github.com/pocketbase/pocketbase/plugins/migratecmd"
-	"github.com/pocketbase/pocketbase/tests"
-	"github.com/pocketbase/pocketbase/tools/list"
-	"github.com/pocketbase/pocketbase/tools/types"
+	"git.ma-al.com/goc_marek/pocketbase/core"
+	"git.ma-al.com/goc_marek/pocketbase/plugins/migratecmd"
+	"git.ma-al.com/goc_marek/pocketbase/tests"
+	"git.ma-al.com/goc_marek/pocketbase/tools/list"
+	"git.ma-al.com/goc_marek/pocketbase/tools/types"
 )
 
 func TestAutomigrateCollectionCreate(t *testing.T) {
@@ -196,8 +196,8 @@ package _test_migrations
 import (
 	"encoding/json"
 
-	"github.com/pocketbase/pocketbase/core"
-	m "github.com/pocketbase/pocketbase/migrations"
+	"git.ma-al.com/goc_marek/pocketbase/core"
+	m "git.ma-al.com/goc_marek/pocketbase/migrations"
 )
 
 func init() {
@@ -633,8 +633,8 @@ package _test_migrations
 import (
 	"encoding/json"
 
-	"github.com/pocketbase/pocketbase/core"
-	m "github.com/pocketbase/pocketbase/migrations"
+	"git.ma-al.com/goc_marek/pocketbase/core"
+	m "git.ma-al.com/goc_marek/pocketbase/migrations"
 )
 
 func init() {
@@ -1015,8 +1015,8 @@ package _test_migrations
 import (
 	"encoding/json"
 
-	"github.com/pocketbase/pocketbase/core"
-	m "github.com/pocketbase/pocketbase/migrations"
+	"git.ma-al.com/goc_marek/pocketbase/core"
+	m "git.ma-al.com/goc_marek/pocketbase/migrations"
 )
 
 func init() {

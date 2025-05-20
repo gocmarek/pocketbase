@@ -50,7 +50,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/pocketbase/pocketbase/tools/filesystem/blob"
+	"git.ma-al.com/goc_marek/pocketbase/tools/filesystem/blob"
 )
 
 const defaultPageSize = 1000

@@ -13,7 +13,7 @@ builds:
     main: ./examples/base
     binary: pocketbase
     ldflags:
-      - -s -w -X github.com/pocketbase/pocketbase.Version={{ .Version }}
+      - -s -w -X git.ma-al.com/goc_marek/pocketbase.Version={{ .Version }}
     env:
       - CGO_ENABLED=0
     goos:
@@ -41,8 +41,6 @@ builds:
         goarch: s390x
       - goos: darwin
         goarch: ppc64le
-      - goos: linux
-        goarch: s390x        
 
 release:
   draft: true

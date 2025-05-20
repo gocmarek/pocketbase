@@ -6,8 +6,8 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/pocketbase/pocketbase/tools/inflector"
-	"github.com/pocketbase/pocketbase/tools/security"
+	"git.ma-al.com/goc_marek/pocketbase/tools/inflector"
+	"git.ma-al.com/goc_marek/pocketbase/tools/security"
 	"github.com/spf13/cast"
 )
 

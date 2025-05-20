@@ -1,4 +1,4 @@
-module github.com/pocketbase/pocketbase
+module git.ma-al.com/goc_marek/pocketbase
 
 go 1.24.2
 
@@ -11,7 +11,7 @@ require (
 	github.com/gabriel-vasile/mimetype v1.4.9
 	github.com/ganigeorgiev/fexpr v0.5.0
 	github.com/go-ozzo/ozzo-validation/v4 v4.3.0
-	github.com/gocmarek/imaging v1.8.0
+	github.com/gocmarek/imaging v1.12.0
 	github.com/golang-jwt/jwt/v5 v5.2.2
 	github.com/pocketbase/dbx v1.11.0
 	github.com/pocketbase/tygoja v0.0.0-20250103200817-ca580d8c5119
@@ -25,6 +25,7 @@ require (
 )
 
 require (
+	github.com/HugoSmits86/nativewebp v1.2.0 // indirect
 	github.com/asaskevich/govalidator v0.0.0-20230301143203-a9d515a09cc2 // indirect
 	github.com/dlclark/regexp2 v1.11.5 // indirect
 	github.com/dop251/base64dec v0.0.0-20231022112746-c6c9f9a96217 // indirect

@@ -3,7 +3,7 @@ package core_test
 import (
 	"testing"
 
-	"github.com/pocketbase/pocketbase/core"
+	"git.ma-al.com/goc_marek/pocketbase/core"
 )
 
 func TestBaseModel(t *testing.T) {

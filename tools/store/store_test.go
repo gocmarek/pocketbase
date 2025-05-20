@@ -7,7 +7,7 @@ import (
 	"strconv"
 	"testing"
 
-	"github.com/pocketbase/pocketbase/tools/store"
+	"git.ma-al.com/goc_marek/pocketbase/tools/store"
 )
 
 func TestNew(t *testing.T) {

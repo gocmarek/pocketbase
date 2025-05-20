@@ -6,12 +6,12 @@ import (
 	"fmt"
 	"net/http"
 
+	"git.ma-al.com/goc_marek/pocketbase/core"
+	"git.ma-al.com/goc_marek/pocketbase/mails"
+	"git.ma-al.com/goc_marek/pocketbase/tools/routine"
+	"git.ma-al.com/goc_marek/pocketbase/tools/security"
 	validation "github.com/go-ozzo/ozzo-validation/v4"
 	"github.com/go-ozzo/ozzo-validation/v4/is"
-	"github.com/pocketbase/pocketbase/core"
-	"github.com/pocketbase/pocketbase/mails"
-	"github.com/pocketbase/pocketbase/tools/routine"
-	"github.com/pocketbase/pocketbase/tools/security"
 )
 
 func recordRequestOTP(e *core.RequestEvent) error {

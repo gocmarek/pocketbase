@@ -20,10 +20,10 @@ import (
 	"strconv"
 	"strings"
 
+	"git.ma-al.com/goc_marek/pocketbase/core"
+	"git.ma-al.com/goc_marek/pocketbase/tools/archive"
+	"git.ma-al.com/goc_marek/pocketbase/tools/osutils"
 	"github.com/fatih/color"
-	"github.com/pocketbase/pocketbase/core"
-	"github.com/pocketbase/pocketbase/tools/archive"
-	"github.com/pocketbase/pocketbase/tools/osutils"
 	"github.com/spf13/cobra"
 )
 

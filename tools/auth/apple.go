@@ -6,8 +6,8 @@ import (
 	"errors"
 	"strings"
 
+	"git.ma-al.com/goc_marek/pocketbase/tools/types"
 	"github.com/golang-jwt/jwt/v5"
-	"github.com/pocketbase/pocketbase/tools/types"
 	"github.com/spf13/cast"
 	"golang.org/x/oauth2"
 )

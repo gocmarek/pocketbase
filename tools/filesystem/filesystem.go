@@ -15,14 +15,14 @@ import (
 	"strconv"
 	"strings"
 
+	"git.ma-al.com/goc_marek/pocketbase/tools/filesystem/blob"
+	"git.ma-al.com/goc_marek/pocketbase/tools/filesystem/internal/fileblob"
+	"git.ma-al.com/goc_marek/pocketbase/tools/filesystem/internal/s3blob"
+	"git.ma-al.com/goc_marek/pocketbase/tools/filesystem/internal/s3blob/s3"
+	"git.ma-al.com/goc_marek/pocketbase/tools/list"
 	"github.com/fatih/color"
 	"github.com/gabriel-vasile/mimetype"
 	"github.com/gocmarek/imaging"
-	"github.com/pocketbase/pocketbase/tools/filesystem/blob"
-	"github.com/pocketbase/pocketbase/tools/filesystem/internal/fileblob"
-	"github.com/pocketbase/pocketbase/tools/filesystem/internal/s3blob"
-	"github.com/pocketbase/pocketbase/tools/filesystem/internal/s3blob/s3"
-	"github.com/pocketbase/pocketbase/tools/list"
 )
 
 // note: the same as blob.ErrNotFound for backward compatibility with earlier versions
@@ -410,7 +410,7 @@ var inlineServeContentTypes = []string{
 var manualExtensionContentTypes = map[string]string{
 	".svg": "image/svg+xml",   // (see https://github.com/whatwg/mimesniff/issues/7)
 	".css": "text/css",        // (see https://github.com/gabriel-vasile/mimetype/pull/113)
-	".js":  "text/javascript", // (see https://github.com/pocketbase/pocketbase/issues/6597)
+	".js":  "text/javascript", // (see https://git.ma-al.com/goc_marek/pocketbase/issues/6597)
 	".mjs": "text/javascript",
 }
 

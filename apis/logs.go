@@ -3,10 +3,10 @@ package apis
 import (
 	"net/http"
 
+	"git.ma-al.com/goc_marek/pocketbase/core"
+	"git.ma-al.com/goc_marek/pocketbase/tools/router"
+	"git.ma-al.com/goc_marek/pocketbase/tools/search"
 	"github.com/pocketbase/dbx"
-	"github.com/pocketbase/pocketbase/core"
-	"github.com/pocketbase/pocketbase/tools/router"
-	"github.com/pocketbase/pocketbase/tools/search"
 )
 
 // bindLogsApi registers the request logs api endpoints.

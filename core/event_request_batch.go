@@ -3,8 +3,8 @@ package core
 import (
 	"net/http"
 
+	"git.ma-al.com/goc_marek/pocketbase/tools/hook"
 	validation "github.com/go-ozzo/ozzo-validation/v4"
-	"github.com/pocketbase/pocketbase/tools/hook"
 )
 
 type BatchRequestEvent struct {

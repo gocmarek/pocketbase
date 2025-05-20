@@ -7,11 +7,11 @@ import (
 	"regexp"
 	"strings"
 
+	"git.ma-al.com/goc_marek/pocketbase/tools/dbutils"
+	"git.ma-al.com/goc_marek/pocketbase/tools/inflector"
+	"git.ma-al.com/goc_marek/pocketbase/tools/security"
+	"git.ma-al.com/goc_marek/pocketbase/tools/tokenizer"
 	"github.com/pocketbase/dbx"
-	"github.com/pocketbase/pocketbase/tools/dbutils"
-	"github.com/pocketbase/pocketbase/tools/inflector"
-	"github.com/pocketbase/pocketbase/tools/security"
-	"github.com/pocketbase/pocketbase/tools/tokenizer"
 )
 
 // DeleteView drops the specified view name.

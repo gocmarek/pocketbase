@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"testing"
 
+	"git.ma-al.com/goc_marek/pocketbase/core/validators"
+	"git.ma-al.com/goc_marek/pocketbase/tests"
 	validation "github.com/go-ozzo/ozzo-validation/v4"
-	"github.com/pocketbase/pocketbase/core/validators"
-	"github.com/pocketbase/pocketbase/tests"
 )
 
 func TestUniqueId(t *testing.T) {

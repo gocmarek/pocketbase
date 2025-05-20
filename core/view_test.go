@@ -6,9 +6,9 @@ import (
 	"slices"
 	"testing"
 
+	"git.ma-al.com/goc_marek/pocketbase/core"
+	"git.ma-al.com/goc_marek/pocketbase/tests"
 	"github.com/pocketbase/dbx"
-	"github.com/pocketbase/pocketbase/core"
-	"github.com/pocketbase/pocketbase/tests"
 )
 
 func ensureNoTempViews(app core.App, t *testing.T) {

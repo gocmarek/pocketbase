@@ -8,13 +8,13 @@ import (
 	"strings"
 	"time"
 
+	"git.ma-al.com/goc_marek/pocketbase/core"
+	"git.ma-al.com/goc_marek/pocketbase/mails"
+	"git.ma-al.com/goc_marek/pocketbase/tools/router"
+	"git.ma-al.com/goc_marek/pocketbase/tools/routine"
+	"git.ma-al.com/goc_marek/pocketbase/tools/search"
+	"git.ma-al.com/goc_marek/pocketbase/tools/security"
 	"github.com/pocketbase/dbx"
-	"github.com/pocketbase/pocketbase/core"
-	"github.com/pocketbase/pocketbase/mails"
-	"github.com/pocketbase/pocketbase/tools/router"
-	"github.com/pocketbase/pocketbase/tools/routine"
-	"github.com/pocketbase/pocketbase/tools/search"
-	"github.com/pocketbase/pocketbase/tools/security"
 )
 
 const (

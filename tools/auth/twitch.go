@@ -6,7 +6,7 @@ import (
 	"errors"
 	"net/http"
 
-	"github.com/pocketbase/pocketbase/tools/types"
+	"git.ma-al.com/goc_marek/pocketbase/tools/types"
 	"golang.org/x/oauth2"
 	"golang.org/x/oauth2/twitch"
 )
