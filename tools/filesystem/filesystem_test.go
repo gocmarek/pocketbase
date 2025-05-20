@@ -860,7 +860,7 @@ func TestFileSystemCreateThumb(t *testing.T) {
 		// jpg
 		{"image.jpg", "thumb.jpg", "100x100", "image/jpeg"},
 		// webp (should produce png)
-		{"image.webp", "thumb.webp", "100x100", "image/png"},
+		{"image.webp", "thumb.webp", "100x100", "image/webp"},
 	}
 
 	for _, s := range scenarios {
