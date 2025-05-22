@@ -551,7 +551,7 @@ func (s *System) CreateThumb(originalKey string, thumbKey, thumbSize string) err
 	}
 
 	// thumb encode (aka. upload)
-	if err := imaging.Encode(w, thumbImg, format); err != nil {
+	if err := imaging.Encode(w, thumbImg, format, imaging.SaveAllAsWebp(true)); err != nil {
 		w.Close()
 		return err
 	}
